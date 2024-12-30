@@ -20,6 +20,7 @@ if (isLoggedIn) {
     userMessage = "Please log in to access the system.";
 }
 console.log("User Message:", userMessage);
+
 let userType = "subscriber";
 let userCategory;
 switch (userType) {
